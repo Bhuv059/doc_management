@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { Editor } from "@/components/editor/Editor";
 import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <Button>Click</Button>
+      <Editor />
     </div>
   );
 };
